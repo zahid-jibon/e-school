@@ -1,0 +1,32 @@
+
+
+/* body{
+    color: black;
+} */
+
+.nav-item{
+    color: white;
+}
+
+.nav-link{
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.nav-link:hover{
+    background-color: #229663;
+    color: white !important;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+.sign{
+    background-color: #229663;
+    color: white !important;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+
