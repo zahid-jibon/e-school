@@ -4,6 +4,10 @@ body{
     margin: 0;
 }
 
+h6{
+    color: black;
+    font-size: 15px;
+}
 .row{
     margin-right: 15px !important;
 }
@@ -89,133 +93,138 @@ body{
 
 /* Card */
 
-/*  Counter Section  */
-
-#counter {    
-    background-color: #fff;
-    color: #229663;
-    display: block;
-    overflow: hidden;
-    text-align: center;
-    padding: 100px 0;
-}
-#counter .count {
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.1);
-    color: #000;
-    text-align: center;
-}
-.count h4 {
-    color: #000;
-	font-size: 16px;
-	margin-top: 0;
+.counter {
     
+    padding: 20px 0;
+    border-radius: 5px;
+    margin: 15px;
 }
-#counter .count .fa {
+
+.count-title {
     font-size: 40px;
-    display: block;
-    color: #000;
-}
-#counter .number {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
-    margin-top: 15px;
-}
-/*  Pricing Section  */
-
-#pricing {
-    background: #000;
-}
-.pricing-items {
-    padding-top: 50px;
-}
-.pricing-item {
-    background: #000;
-    position: relative;
-    box-shadow: 0 0 9px 0 rgba(130, 121, 121, .2);
-    padding: 50px 0px;
-    border-top-right-radius: 2em;
-    border-bottom-left-radius: 2em;
-}
-.pricing-item.active {
-    top: -50px;
-}
-.price-list li {
-    list-style: none;
-    margin-bottom: 15px;
-}
-
-.price-list .price {
-    font-size: 30px;
-    font-weight: bold;
-}
-.pricing-item .ribbon {
-    margin: -50px 0 20px;
-    display: block;
-    background-color: #fff;
-    padding: 15px 0 2px;
-    opacity: 0.8;
-    border-top-right-radius: 2em;
-}
-.pricing-item:hover .ribbon {
-    background-color: #fff;
-	opacity: 1;
-}
-.pricing-item.active .ribbon {
-    background-color: #fff;
-	opacity: 1;
-}
-.pricing-item .ribbon p {
-    color: #000;
-    font-size: 22px;
-    margin: 0 0 10px;
-    font-weight: 600;
-}
-.pricing-item.active .price-list li, .pricing-item:hover .price-list li {
-    color: #333232;;
-}
-ul.price-list {
-    margin-bottom: 30px;
-    padding: 0;
-}
-.btn-price {
-    display: inline-block;
-    position: relative;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
     text-align: center;
-    text-transform: uppercase;
-    padding: 14px 40px;
-    -webkit-border-radius: 26px;
-    -moz-border-radius: 26px;
-    -o-border-radius: 26px;
-    border-radius: 26px;
-    border: 1px solid #848181;
-    background-color: transparent;
-    color: #848181;
-}
-.pricing-item:hover .btn-price,
-.active .btn-price {
-    border: 1px solid #fff;
-    background-color: #fff;
-    color: #000;
-}
-.btn-price:focus {
-    background-color: transparent;
-    text-decoration: none;
 }
 
-.icon-img{
+.count-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #fff;
+}
+
+.icon{
     height: 75px;
     width: 75px;
 }
 
-
-@media only screen and (max-width: 767px) {
-    .pricing-items {
-        padding-top: 0;
-    }
-    .pricing-item.active {
-        top: 20px;
-        margin-bottom: 40px;
-    }
+.counter:hover{
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 10px 10px 40px gray;
+    margin: 15px;
 }
+
+.about{
+    margin: 50px;
+}
+
+.line{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(48, 47, 47);
+}
+
+.act{
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 10px 10px 40px gray;
+    margin: 15px;
+}
+
+/* Course */
+
+.lite{
+    height: 20px;
+    width: 20px;
+}
+
+.card{
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(197, 194, 194);
+    border-radius: 20px;
+}
+
+/* Testimonial */
+
+.post-txt {
+    font-size: 17px;
+    margin-bottom: 0;
+    padding: 3%;
+}
+
+.quote-img {
+    position: absolute;
+    top: 32px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+/* Footer */
+
+.text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #393c3f;
+    border-color: #fff;
+  }
+  
+  .form-control:focus {
+    background: #2f493e;
+    color: #fff;
+  }
+  
+  footer {
+    background: #4e9275;
+    background-color: rgb(41, 40, 40);
+  }
+  
+  .foot{
+    padding: 2%;
+  }
